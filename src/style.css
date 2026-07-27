@@ -1,0 +1,16 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: whitesmoke;
+  border: 100px;
+}
+a {
+  text-decoration: none;counter-reset: red;
+}
+a :hover{
+  text-decoration: none;background-color: #28f807;
+  color:#28f807;
+}
+h1, h2 {
+  color: #333;
+}
