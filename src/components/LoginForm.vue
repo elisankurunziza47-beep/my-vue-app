@@ -1,40 +1,68 @@
 <template>
-  <form @submit.prevent="login">
-    <input type="text" v-model="username" placeholder="Enter username" required /><br/>
-    <input type="password" v-model="password" placeholder="Enter password" required /><br/>
-    <button type="submit">Signin</button>
+  <form class="login-form">
+
+    <h2>Login</h2>
+
+    <input
+      type="email"
+      placeholder="Email"
+    />
+
+    <input
+      type="password"
+      placeholder="Password"
+    />
+
+    <button type="submit">
+      Login
+    </button>
+
   </form>
 </template>
 
 <script>
 export default {
-  name: "LoginForm",
-  data() {
-    return { username: "", password: "" };
-  },
-  methods: {
-    login() {
-      if (!this.username || !this.password) {
-        alert("Please fill all fields");
-      } else {
-        alert(`Welcome ${this.username}, you are logged in!`);
-        this.$router.push("/");
-      }
-    }
-  }
+  name: "LoginForm"
 }
 </script>
 
-<style>
-form {
-  text-align: center;
+<style scoped>
+
+.login-form{
+  max-width:400px;
+  margin:120px auto;
+  background:white;
+  padding:30px;
+  border-radius:10px;
+  box-shadow:0 5px 20px rgba(0,0,0,.1);
 }
-button {
-  margin-top: 10px;
-  padding: 8px 20px;
-  background-color: #007bff;
-  color: white;
-  border: none;
-  border-radius: 5px;
+
+.login-form h2{
+  text-align:center;
+  margin-bottom:20px;
 }
+
+.login-form input{
+  width:100%;
+  padding:12px;
+  margin-bottom:15px;
+  border:1px solid #ddd;
+  border-radius:8px;
+}
+
+.login-form button{
+  width:100%;
+  padding:12px;
+  border:none;
+  background:#2563eb;
+  color:white;
+  border-radius:8px;
+  cursor:pointer;
+  font-size:16px;
+}
+
+.login-form button:hover{
+  background:#1d4ed8;
+}
+
 </style>

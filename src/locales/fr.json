@@ -1,0 +1,22 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "products": "Produits",
+    "services": "Services",
+    "about": "À propos",
+    "contact": "Contact",
+    "login": "Connexion",
+    "register": "Inscription",
+    "wishlist": "Liste de souhaits",
+    "cart": "Panier"
+  },
+  "search": {
+    "placeholder": "Rechercher des produits, marques et catégories..."
+  },
+  "product": {
+    "addToCart": "Ajouter au panier",
+    "buyNow": "Acheter maintenant",
+    "inStock": "En stock",
+    "outOfStock": "Rupture de stock"
+  }
+}

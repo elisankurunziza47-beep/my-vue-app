@@ -1,0 +1,1084 @@
+import applephoneImg from "../assets/applephone.jfif";
+import iFone17proImg from "../assets/iFone17pro.jfif";
+import hppcImg from "../assets/hppc.jfif";
+import lenovoImg from "../assets/lenovo.jfif";
+import dellpcImg from "../assets/dellpc.jfif";
+import air1Img from "../assets/air1.jpg";
+import air2Img from "../assets/air2.jpg";
+import airImg from "../assets/one.jpg";
+import air4Img from "../assets/two.jpg";
+import B2Img from "../assets/three.jpg";
+import apple1Img from "../assets/appledesktop.jfif";
+import pixelImg from "../assets/pixe17pro.jfif";
+import hpcomputerImg from "../assets/hpcomputer.jfif";
+import androideImg from "../assets/androidephone.webp";
+
+import one1Img from "../assets/1.jfif";
+import two2Img from "../assets/2.jfif";
+import threeImg from "../assets/3.jfif";
+import fourImg from "../assets/4.jfif";
+import fiveImg from "../assets/5.jfif";
+import sixImg from "../assets/6.jfif";
+import sevenImg from "../assets/7.jfif";
+import eightImg from "../assets/8.jfif";
+import nineImg from "../assets/9.jfif";
+import tenImg from "../assets/10.jfif";
+import elevenImg from "../assets/11.jfif";
+import tuelveImg from "../assets/12.jfif";
+import thirteenImg from "../assets/13.jfif";
+import fourteenImg from "../assets/14.jfif";
+import feefteenImg from "../assets/15.jfif";
+import sixteenImg from "../assets/16.jfif";
+import seventeenImg from "../assets/17.jfif";
+import eighteenImg from "../assets/18.jfif";
+import nineteenImg from "../assets/19.jfif";
+import twentyImg from "../assets/20.jfif";
+import twentyoneImg from "../assets/21.jfif";
+import twentytwoImg from "../assets/22.jfif";
+import twentythreeImg from "../assets/23.jfif";
+import twentyfourImg from "../assets/24.jfif";
+import twentyfiveImg from "../assets/25.jfif";
+import twentysixImg from "../assets/26.jfif";
+import twentysevenImg from "../assets/27.jfif";
+import twentyeightImg from "../assets/28.jfif";
+import twentynineImg from "../assets/29.jfif";
+
+
+const products = [
+
+    
+  {
+    id: 1,
+    name: "HP Laptop",
+    brand: "HP",
+    category: "Laptop",
+    price: 950,
+    rating: 4.7,
+    discount: 7,
+    reviews: 188,
+    stock: 10,
+    delivery: "Free Delivery",
+    description:
+      "Powerful HP laptop for programming, office work and gaming.",
+
+    specifications: {
+      storage: "512 GB SSD",
+      ram: "16 GB",
+      display: "15.6 inch FHD",
+      camera: "HD Webcam",
+      battery: "6000 mAh",
+      processor: "Intel Core i7",
+      os: "Windows 11"
+    },
+
+    image: hppcImg,
+
+    gallery: [
+      hppcImg,
+      lenovoImg,
+      dellpcImg
+    ]
+  },
+
+
+  {
+    id: 2,
+    name: "Lenovo Laptop",
+    brand: "Lenovo",
+    category: "Laptop",
+    price: 700,
+    rating: 4.6,
+    discount: 5,
+    reviews: 120,
+    stock: 9,
+    delivery: "Fast Delivery",
+    description:
+      "Reliable Lenovo laptop suitable for business, school and programming.",
+
+    specifications: {
+      storage: "512 GB SSD",
+      ram: "16 GB",
+      display: "15.6 inch FHD",
+      camera: "HD Webcam",
+      battery: "5200 mAh",
+      processor: "Intel Core i5",
+      os: "Windows 11"
+    },
+
+    image: lenovoImg,
+
+    gallery: [
+      lenovoImg,
+      hppcImg,
+      dellpcImg
+    ]
+  },
+
+
+  {
+    id: 3,
+    name: "Dell Laptop",
+    brand: "Dell",
+    category: "Laptop",
+    price: 850,
+    rating: 4.9,
+    discount: 8,
+    reviews: 310,
+    stock: 12,
+    delivery: "Free Delivery",
+    description:
+      "Premium Dell laptop designed for professional work and entertainment.",
+
+    specifications: {
+      storage: "1 TB SSD",
+      ram: "16 GB",
+      display: "15.6 inch FHD",
+      camera: "HD Webcam",
+      battery: "6000 mAh",
+      processor: "Intel Core i7",
+      os: "Windows 11"
+    },
+
+    image: dellpcImg,
+
+    gallery: [
+      dellpcImg,
+      lenovoImg,
+      hppcImg
+    ]
+  },
+
+  {
+    id: 4,
+    name: "AIR1 Ultra+",
+    brand: "AIR",
+    category: "Wireless Earbuds",
+    price: 300,
+    discount: 7,
+    rating: 4.5,
+    reviews: 80,
+    stock: 18,
+    delivery: "Free Delivery",
+    description:
+      "Premium wireless earbuds with powerful sound and long battery life.",
+
+    specifications: {
+      battery: "40 Hours",
+      bluetooth: "5.3",
+      noiseCancellation: "Yes",
+      waterproof: "IPX5"
+    },
+
+    image: air1Img,
+
+    gallery: [
+      air1Img,
+      air2Img,
+      airImg
+    ]
+  },
+
+
+  {
+    id: 5,
+    name: "AIR2 Ultra",
+    brand: "AIR",
+    category: "Wireless Earbuds",
+    price: 280,
+    rating: 4.6,
+    discount: 6,
+    reviews: 92,
+    stock: 16,
+    delivery: "Free Delivery",
+    description:
+      "Wireless earbuds with deep bass, clear sound and comfortable design.",
+
+    specifications: {
+      battery: "35 Hours",
+      bluetooth: "5.3",
+      noiseCancellation: "Yes",
+      waterproof: "IPX5"
+    },
+
+    image: air2Img,
+
+    gallery: [
+      air2Img,
+      air1Img,
+      air4Img
+    ]
+  },
+
+
+  {
+    id: 6,
+    name: "AIR3S",
+    brand: "AIR",
+    category: "Wireless Earbuds",
+    price: 190,
+    rating: 4.4,
+    discount: 5,
+    reviews: 75,
+    stock: 20,
+    delivery: "Free Delivery",
+    description:
+      "Affordable wireless earbuds with good sound quality for everyday use.",
+
+    specifications: {
+      battery: "30 Hours",
+      bluetooth: "5.2",
+      noiseCancellation: "No",
+      waterproof: "IPX4"
+    },
+
+    image: airImg,
+
+    gallery: [
+      airImg,
+      air1Img,
+      air2Img
+    ]
+  },
+
+
+  {
+    id: 7,
+    name: "B2 Air",
+    brand: "B2",
+    category: "Wireless Earbuds",
+    price: 290,
+    rating: 4.5,
+    discount: 7,
+    reviews: 64,
+    stock: 15,
+    delivery: "Fast Delivery",
+    description:
+      "Comfortable wireless earbuds with powerful sound and modern design.",
+
+    specifications: {
+      battery: "36 Hours",
+      bluetooth: "5.3",
+      noiseCancellation: "Yes",
+      waterproof: "IPX5"
+    },
+
+    image: B2Img,
+
+    gallery: [
+      B2Img,
+      airImg,
+      air1Img
+    ]
+  },
+
+  {
+    id: 8,
+    name: "Google Pixel 17 Pro",
+    brand: "Google",
+    category: "Smartphone",
+    price: 900,
+    rating: 4.9,
+    discount: 8,
+    reviews: 270,
+    stock: 7,
+    delivery: "Free Delivery",
+    description:
+      "Google flagship smartphone with a powerful processor and advanced camera.",
+
+    specifications: {
+      storage: "256 GB",
+      ram: "12 GB",
+      display: "6.8 inch OLED",
+      camera: "50 MP",
+      battery: "5000 mAh",
+      processor: "Tensor G6",
+      os: "Android"
+    },
+
+    image: pixelImg,
+
+    gallery: [
+      pixelImg,
+      applephoneImg,
+      androideImg
+    ]
+  },
+
+
+  {
+    id: 9,
+    name: "iPhone 17 Pro",
+    brand: "Apple",
+    category: "Smartphone",
+    price: 1500,
+    rating: 5,
+    reviews: 450,
+    discount: 5,
+    stock: 5,
+    delivery: "Express Delivery",
+    description:
+      "Apple flagship smartphone with premium performance, camera and display.",
+
+    specifications: {
+      storage: "512 GB",
+      ram: "12 GB",
+      display: "6.9 inch OLED",
+      camera: "48 MP",
+      battery: "5200 mAh",
+      processor: "Apple A19",
+      os: "iOS"
+    },
+
+    image: iFone17proImg,
+
+    gallery: [
+      iFone17proImg,
+      applephoneImg,
+      apple1Img
+    ]
+  },
+
+  {
+    id: 10,
+    name: "Apple Desktop Computer",
+    brand: "Apple",
+    category: "Desktop",
+    price: 1200,
+    rating: 5,
+    discount: 8,
+    reviews: 450,
+    stock: 5,
+    delivery: "Express Delivery",
+    description:
+      "Modern Apple desktop computer designed for professional work, study and entertainment.",
+
+    specifications: {
+      storage: "512 GB SSD",
+      ram: "16 GB",
+      display: "24 inch",
+      camera: "HD Webcam",
+      processor: "Apple Silicon",
+      os: "macOS"
+    },
+
+    image: apple1Img,
+
+    gallery: [
+      apple1Img,
+      hpcomputerImg,
+      dellpcImg
+    ]
+  },
+
+  {
+    id: 11,
+    name: "Wireless Earbuds",
+    brand: "AIR",
+    category: "Wireless Earbuds",
+    price: 220,
+    rating: 4.4,
+    discount: 6,
+    reviews: 61,
+    stock: 15,
+    delivery: "Free Delivery",
+    description:
+      "Modern wireless earbuds with clear sound and comfortable design.",
+
+    specifications: {
+      battery: "30 Hours",
+      bluetooth: "5.2",
+      noiseCancellation: "Yes",
+      waterproof: "IPX4"
+    },
+
+    image: air4Img,
+    gallery: [air4Img, air1Img, air2Img]
+  },
+
+
+  {
+    id: 12,
+    name: "HP Desktop Computer",
+    brand: "HP",
+    category: "Desktop",
+    price: 1000,
+    rating: 4.7,
+    discount: 7,
+    reviews: 150,
+    stock: 8,
+    delivery: "Free Delivery",
+    description:
+      "Powerful HP desktop computer for office work, programming and business.",
+
+    specifications: {
+      storage: "512 GB SSD",
+      ram: "16 GB",
+      display: "24 inch",
+      processor: "Intel Core i7",
+      os: "Windows 11"
+    },
+
+    image: hpcomputerImg,
+    gallery: [hpcomputerImg, apple1Img, dellpcImg]
+  },
+
+
+  {
+    id: 13,
+    name: "Android Smartphone",
+    brand: "Android",
+    category: "Smartphone",
+    price: 500,
+    rating: 4.5,
+    discount: 6,
+    reviews: 110,
+    stock: 12,
+    delivery: "Fast Delivery",
+    description:
+      "Modern Android smartphone with a large display and powerful battery.",
+
+    specifications: {
+      storage: "256 GB",
+      ram: "8 GB",
+      display: "6.7 inch",
+      camera: "50 MP",
+      battery: "5000 mAh",
+      processor: "Octa Core",
+      os: "Android"
+    },
+
+    image: androideImg,
+    gallery: [androideImg, pixelImg, applephoneImg]
+  },
+
+
+  {
+    id: 14,
+    name: "Apple Smartphone",
+    brand: "Apple",
+    category: "Smartphone",
+    price: 1000,
+    rating: 4.8,
+    discount: 7,
+    reviews: 210,
+    stock: 8,
+    delivery: "Express Delivery",
+    description:
+      "Premium Apple smartphone with excellent performance and camera quality.",
+
+    specifications: {
+      storage: "256 GB",
+      ram: "8 GB",
+      display: "6.7 inch OLED",
+      camera: "48 MP",
+      battery: "4800 mAh",
+      processor: "Apple Silicon",
+      os: "iOS"
+    },
+
+    image: applephoneImg,
+    gallery: [applephoneImg, iFone17proImg, apple1Img]
+  },
+  {
+    id: 15,
+    name: "Smart Device 1",
+    brand: "Elisa",
+    category: "Electronics",
+    price: 150,
+    rating: 4.3,
+    reviews: 35,
+    discount: 10,
+    stock: 20,
+    delivery: "Fast Delivery",
+    description: "Modern electronic product available at Elisa Shop.",
+    specifications: {
+      condition: "New",
+      warranty: "1 Year"
+    },
+    image: one1Img,
+    gallery: [one1Img]
+  },
+
+  {
+    id: 16,
+    name: "Smart Device 2",
+    brand: "Elisa",
+    category: "Electronics",
+    price: 180,
+    rating: 4.4,
+    discount: 11,
+    reviews: 42,
+    stock: 18,
+    delivery: "Fast Delivery",
+    description: "Quality electronic product for everyday use.",
+    specifications: {
+      condition: "New",
+      warranty: "1 Year"
+    },
+    image: two2Img,
+    gallery: [two2Img]
+  },
+
+  {
+    id: 17,
+    name: "Smart Device 3",
+    brand: "Elisa",
+    category: "Electronics",
+    price: 200,
+    rating: 4.5,
+    discount: 7,
+    reviews: 48,
+    stock: 15,
+    delivery: "Free Delivery",
+    description: "Modern electronic device with a stylish design.",
+    specifications: {
+      condition: "New",
+      warranty: "1 Year"
+    },
+    image: threeImg,
+    gallery: [threeImg]
+  },
+
+  {
+    id: 18,
+    name: "Smart Device 4",
+    brand: "Elisa",
+    category: "Electronics",
+    price: 230,
+    rating: 4.4,
+    reviews: 39,
+    discount: 5,
+    stock: 14,
+    delivery: "Free Delivery",
+    description: "Reliable electronic product for everyday activities.",
+    specifications: {
+      condition: "New",
+      warranty: "1 Year"
+    },
+    image: fourImg,
+    gallery: [fourImg]
+  },
+
+  {
+    id: 19,
+    name: "Smart Device 5",
+    brand: "Elisa",
+    category: "Electronics",
+    price: 250,
+    rating: 4.6,
+    discount: 9,
+    reviews: 55,
+    stock: 17,
+    delivery: "Fast Delivery",
+    description: "High-quality electronic product with modern features.",
+    specifications: {
+      condition: "New",
+      warranty: "1 Year"
+    },
+    image: fiveImg,
+    gallery: [fiveImg]
+  },
+
+  {
+    id: 20,
+    name: "Smart Device 6",
+    brand: "Elisa",
+    category: "Electronics",
+    price: 275,
+    rating: 4.5,
+    reviews: 46,
+    discount: 7,
+    stock: 12,
+    delivery: "Free Delivery",
+    description: "Modern product designed for convenience and performance.",
+    specifications: {
+      condition: "New",
+      warranty: "1 Year"
+    },
+    image: sixImg,
+    gallery: [sixImg]
+  },
+
+  {
+    id: 21,
+    name: "Smart Device 7",
+    brand: "Elisa",
+    category: "Electronics",
+    price: 300,
+    rating: 4.6,
+    reviews: 58,
+    discount: 8,
+    stock: 10,
+    delivery: "Free Delivery",
+    description: "Premium electronic device for modern users.",
+    specifications: {
+      condition: "New",
+      warranty: "1 Year"
+    },
+    image: sevenImg,
+    gallery: [sevenImg]
+  },
+
+  {
+    id: 22,
+    name: "Smart Device 8",
+    brand: "Elisa",
+    category: "Electronics",
+    price: 320,
+    rating: 4.5,
+    reviews: 41,
+    discount: 6,
+    stock: 11,
+    delivery: "Fast Delivery",
+    description: "Reliable and stylish electronic product.",
+    specifications: {
+      condition: "New",
+      warranty: "1 Year"
+    },
+    image: eightImg,
+    gallery: [eightImg]
+  },
+
+  {
+    id: 23,
+    name: "Smart Device 9",
+    brand: "Elisa",
+    category: "Electronics",
+    price: 340,
+    rating: 4.7,
+    reviews: 67,
+    discount: 8,
+    stock: 13,
+    delivery: "Free Delivery",
+    description: "Quality product with modern technology.",
+    specifications: {
+      condition: "New",
+      warranty: "1 Year"
+    },
+    image: eightImg,
+    gallery: [eightImg]
+  },
+
+  {
+    id: 24,
+    name: "Smart Device 10",
+    brand: "Elisa",
+    category: "Electronics",
+    price: 360,
+    discount: 7,
+    rating: 4.4,
+    reviews: 37,
+    stock: 9,
+    delivery: "Fast Delivery",
+    description: "Affordable electronic product for everyday use.",
+    specifications: {
+      condition: "New",
+      warranty: "1 Year"
+    },
+    image: nineImg,
+    gallery: [nineImg]
+  },
+
+  {
+    id: 25,
+    name: "Smart Device 11",
+    brand: "Elisa",
+    category: "Electronics",
+    price: 380,
+    rating: 4.6,
+    discount: 9,
+    reviews: 49,
+    stock: 16,
+    delivery: "Free Delivery",
+    description: "Modern electronic device with reliable performance.",
+    specifications: {
+      condition: "New",
+      warranty: "1 Year"
+    },
+    image: tenImg,
+    gallery: [tenImg]
+  },
+
+  {
+    id: 26,
+    name: "Smart Device 12",
+    brand: "Elisa",
+    category: "Electronics",
+    price: 400,
+    rating: 4.5,
+    reviews: 44,
+    discount: 8,
+    stock: 10,
+    delivery: "Free Delivery",
+    description: "High-quality electronic device for home and office.",
+    specifications: {
+      condition: "New",
+      warranty: "1 Year"
+    },
+    image: elevenImg,
+    gallery: [elevenImg]
+  },
+
+  {
+    id: 27,
+    name: "Smart Device 13",
+    brand: "Elisa",
+    category: "Electronics",
+    price: 420,
+    rating: 4.7,
+    discount: 6,
+    reviews: 53,
+    stock: 8,
+    delivery: "Express Delivery",
+    description: "Premium electronic product with modern technology.",
+    specifications: {
+      condition: "New",
+      warranty: "1 Year"
+    },
+    image: tuelveImg,
+    gallery: [tuelveImg]
+  },
+
+  {
+    id: 28,
+    name: "Smart Device 14",
+    brand: "Elisa",
+    category: "Electronics",
+    price: 450,
+    rating: 4.6,
+    reviews: 62,
+    discount: 7,
+    stock: 12,
+    delivery: "Free Delivery",
+    description: "Stylish and reliable electronic product.",
+    specifications: {
+      condition: "New",
+      warranty: "1 Year"
+    },
+    image: thirteenImg,
+    gallery: [thirteenImg]
+  },
+
+  {
+    id: 29,
+    name: "Smart Device 15",
+    brand: "Elisa",
+    category: "Electronics",
+    price: 480,
+    rating: 4.5,
+    discount: 5,
+    reviews: 51,
+    stock: 7,
+    delivery: "Fast Delivery",
+    description: "Modern electronic product designed for performance.",
+    specifications: {
+      condition: "New",
+      warranty: "1 Year"
+    },
+    image: fourteenImg,
+    gallery: [fourteenImg]
+  },
+
+  {
+    id: 30,
+    name: "Smart Device 16",
+    brand: "Elisa",
+    category: "Electronics",
+    price: 500,
+    rating: 4.7,
+    discount: 6,
+    reviews: 73,
+    stock: 14,
+    delivery: "Free Delivery",
+    description: "Premium electronic product with excellent features.",
+    specifications: {
+      condition: "New",
+      warranty: "1 Year"
+    },
+    image: feefteenImg,
+    gallery: [feefteenImg]
+  },
+
+  {
+    id: 31,
+    name: "Smart Device 17",
+    brand: "Elisa",
+    category: "Electronics",
+    price: 520,
+    rating: 4.4,
+    discount: 4,
+    reviews: 35,
+    stock: 9,
+    delivery: "Fast Delivery",
+    description: "Reliable modern electronic product.",
+    specifications: {
+      condition: "New",
+      warranty: "1 Year"
+    },
+    image: sixteenImg,
+    gallery: [sixteenImg]
+  },
+
+  {
+    id: 32,
+    name: "Smart Device 18",
+    brand: "Elisa",
+    category: "Electronics",
+    price: 550,
+    rating: 4.6,
+    discount: 8,
+    reviews: 60,
+    stock: 11,
+    delivery: "Free Delivery",
+    description: "Modern electronic product with premium design.",
+    specifications: {
+      condition: "New",
+      warranty: "1 Year"
+    },
+    image: seventeenImg,
+    gallery: [seventeenImg]
+  },
+
+  {
+    id: 33,
+    name: "Smart Device 19",
+    brand: "Elisa",
+    category: "Electronics",
+    price: 580,
+    rating: 4.5,
+    discount: 9,
+    reviews: 47,
+    stock: 8,
+    delivery: "Free Delivery",
+    description: "Quality electronic product for everyday use.",
+    specifications: {
+      condition: "New",
+      warranty: "1 Year"
+    },
+    image: eighteenImg,
+    gallery: [eighteenImg]
+  },
+
+  {
+    id: 34,
+    name: "Smart Device 20",
+    brand: "Elisa",
+    category: "Electronics",
+    price: 600,
+    rating: 4.8,
+    discount: 10,
+    reviews: 91,
+    stock: 6,
+    delivery: "Express Delivery",
+    description: "Premium electronic product for demanding users.",
+    specifications: {
+      condition: "New",
+      warranty: "1 Year"
+    },
+    image: nineteenImg,
+    gallery: [nineteenImg]
+  },
+
+  {
+    id: 35,
+    name: "Smart Device 21",
+    brand: "Elisa",
+    category: "Electronics",
+    price: 620,
+    rating: 4.6,
+    discount: 7,
+    reviews: 58,
+    stock: 10,
+    delivery: "Free Delivery",
+    description: "Modern and reliable electronic device.",
+    specifications: {
+      condition: "New",
+      warranty: "1 Year"
+    },
+    image: twentyImg,
+    gallery: [twentyImg]
+  },
+
+  {
+    id: 36,
+    name: "Smart Device 22",
+    brand: "Elisa",
+    category: "Electronics",
+    price: 650,
+    rating: 4.7,
+    discount: 5,
+    reviews: 65,
+    stock: 9,
+    delivery: "Fast Delivery",
+    description: "High-quality electronic product with modern features.",
+    specifications: {
+      condition: "New",
+      warranty: "1 Year"
+    },
+    image: twentyoneImg,
+    gallery: [twentyoneImg]
+  },
+
+  {
+    id: 37,
+    name: "Smart Device 23",
+    brand: "Elisa",
+    category: "Electronics",
+    price: 680,
+    discount: 6,
+    rating: 4.5,
+    reviews: 42,
+    stock: 7,
+    delivery: "Free Delivery",
+    description: "Modern product with reliable performance.",
+    specifications: {
+      condition: "New",
+      warranty: "1 Year"
+    },
+    image: twentytwoImg,
+    gallery: [twentytwoImg]
+  },
+
+  {
+    id: 38,
+    name: "Smart Device 24",
+    brand: "Elisa",
+    category: "Electronics",
+    price: 700,
+    rating: 4.6,
+    discount: 7,
+    reviews: 70,
+    stock: 12,
+    delivery: "Free Delivery",
+    description: "Stylish electronic product designed for modern users.",
+    specifications: {
+      condition: "New",
+      warranty: "1 Year"
+    },
+    image: twentythreeImg,
+    gallery: [twentythreeImg]
+  },
+
+  {
+    id: 39,
+    name: "Smart Device 25",
+    brand: "Elisa",
+    category: "Electronics",
+    price: 720,
+    rating: 4.5,
+    reviews: 48,
+    discount: 8,
+    stock: 8,
+    delivery: "Fast Delivery",
+    description: "Reliable electronic product with modern design.",
+    specifications: {
+      condition: "New",
+      warranty: "1 Year"
+    },
+    image: twentyfourImg,
+    gallery: [twentyfourImg]
+  },
+
+  {
+    id: 40,
+    name: "Smart Device 26",
+    brand: "Elisa",
+    category: "Electronics",
+    price: 750,
+    rating: 4.7,
+    discount: 9,
+    reviews: 76,
+    stock: 10,
+    delivery: "Free Delivery",
+    description: "Premium electronic product for home and office.",
+    specifications: {
+      condition: "New",
+      warranty: "1 Year"
+    },
+    image: twentyfiveImg,
+    gallery: [twentyfiveImg]
+  },
+
+  {
+    id: 41,
+    name: "Smart Device 27",
+    brand: "Elisa",
+    category: "Electronics",
+    price: 780,
+    rating: 4.6,
+    discount: 6,
+    reviews: 55,
+    stock: 6,
+    delivery: "Express Delivery",
+    description: "High-quality electronic device with excellent performance.",
+    specifications: {
+      condition: "New",
+      warranty: "1 Year"
+    },
+    image: twentysixImg,
+    gallery: [twentysixImg]
+  },
+
+  {
+    id: 42,
+    name: "Smart Device 28",
+    brand: "Elisa",
+    category: "Electronics",
+    price: 800,
+    rating: 4.8,
+    discount: 11,
+    reviews: 88,
+    stock: 5,
+    delivery: "Free Delivery",
+    description: "Premium modern electronic product.",
+    specifications: {
+      condition: "New",
+      warranty: "1 Year"
+    },
+    image: twentysevenImg,
+    gallery: [twentysevenImg]
+  },
+
+  {
+    id: 43,
+    name: "Smart Device 29",
+    brand: "Elisa",
+    category: "Electronics",
+    price: 850,
+    rating: 4.7,
+    discount: 6,
+    reviews: 72,
+    stock: 7,
+    delivery: "Fast Delivery",
+    description: "Modern electronic product with premium quality.",
+    specifications: {
+      condition: "New",
+      warranty: "1 Year"
+    },
+    image: twentyeightImg,
+    gallery: [twentyeightImg]
+  },
+
+  {
+    id: 44,
+    name: "Smart Device 30",
+    brand: "Elisa",
+    category: "Electronics",
+    price: 900,
+    rating: 4.9,
+    discount: 5,
+    reviews: 105,
+    stock: 5,
+    delivery: "Express Delivery",
+    description: "Premium electronic product available at Elisa Shop.",
+    specifications: {
+      condition: "New",
+      warranty: "1 Year"
+    },
+    image: twentynineImg,
+    gallery: [twentynineImg]
+  }
+
+];
+
+export default products;

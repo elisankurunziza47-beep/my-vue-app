@@ -1,0 +1,22 @@
+{
+  "nav": {
+    "home": "Ahabanza",
+    "products": "Ibicuruzwa",
+    "services": "Serivisi",
+    "about": "Abo turibo",
+    "contact": "Twandikire",
+    "login": "Kwinjira",
+    "register": "Kwiyandikisha",
+    "wishlist": "Ibyifuzo",
+    "cart": "Agaseke"
+  },
+  "search": {
+    "placeholder": "Shakisha ibicuruzwa, brands n'ibyiciro..."
+  },
+  "product": {
+    "addToCart": "Shyira mu gaseke",
+    "buyNow": "Gura ubu",
+    "inStock": "Kirahari",
+    "outOfStock": "Cyashize"
+  }
+}
