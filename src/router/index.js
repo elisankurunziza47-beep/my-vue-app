@@ -1,102 +1,64 @@
 import { createRouter, createWebHistory } from "vue-router";
 
-// Pages
-import Home from "../pages/Home.vue";
-import Products from "../pages/Products.vue";
-import ProductDetail from "../pages/ProductDetail.vue";
-import Cart from "../pages/Cart.vue";
-import Wishlist from "../pages/Wishlist.vue";
-import About from "../pages/About.vue";
-import Services from "../pages/Services.vue";
-import Contact from "../pages/Contact.vue";
-import Login from "../pages/Login.vue";
-import Register from "../pages/Register.vue";
-import Checkout from "../pages/Checkout.vue";
-import OrderConfirmation from "../pages/OrderConfirmation.vue";
-
 const routes = [
-  // Home
   {
     path: "/",
-    component: Home,
+    name: "Home",
+    component: () => import("../pages/Home.vue")
   },
-
-  // Products
   {
     path: "/products",
-    component: Products,
+    name: "Products",
+    component: () => import("../pages/Products.vue")
   },
-
-  // Product Detail
   {
     path: "/products/:id",
-    component: ProductDetail,
+    name: "ProductDetail",
+    component: () => import("../pages/ProductDetail.vue")
   },
-
-  // Cart
   {
     path: "/cart",
-    component: Cart,
+    name: "Cart",
+    component: () => import("../pages/Cart.vue")
   },
-
-  // Wishlist
   {
     path: "/wishlist",
-    component: Wishlist,
+    name: "Wishlist",
+    component: () => import("../pages/Wishlist.vue")
   },
-
-  // About
   {
     path: "/about",
-    component: About,
+    name: "About",
+    component: () => import("../pages/About.vue")
   },
-
-  // Services
   {
     path: "/services",
-    component: Services,
+    name: "Services",
+    component: () => import("../pages/Services.vue")
   },
-
-  // Contact
   {
     path: "/contact",
-    component: Contact,
+    name: "Contact",
+    component: () => import("../pages/Contact.vue")
   },
-
-  // Login
   {
     path: "/login",
-    component: Login,
+    name: "Login",
+    component: () => import("../pages/Login.vue")
   },
-
-  // Register
   {
     path: "/register",
-    component: Register,
-  },
-
-  // Checkout
-  {
-    path: "/checkout",
-    component: Checkout,
-  },
-
-  // Order Confirmation
-  {
-    path: "/confirmation",
-    component: OrderConfirmation,
-  },
-
-  // 404 Page
-  {
-    path: "/:pathMatch(.*)*",
-    redirect: "/",
-  },
+    name: "Register",
+    component: () => import("../pages/Register.vue")
+  }
 ];
 
 const router = createRouter({
   history: createWebHistory(),
   routes,
+  scrollBehavior() {
+    return { top: 0, behavior: "smooth" };
+  }
 });
 
 export default router;

@@ -1,22 +1,94 @@
+
 {
   "nav": {
     "home": "Accueil",
     "products": "Produits",
     "services": "Services",
-    "about": "À propos",
+    "aboutUs": "À propos",
     "contact": "Contact",
     "login": "Connexion",
-    "register": "Inscription",
+    "register": "S'inscrire",
     "wishlist": "Liste de souhaits",
-    "cart": "Panier"
+    "cart": "Panier",
+    "deliverTo": "Livrer à",
+    "country": "Rwanda",
+    "searchPlaceholder": "Rechercher des produits, des marques et des catégories...",
+    "helloSignIn": "Bonjour, connectez-vous",
+    "account": "Compte",
+    "needHelp": "Besoin d'aide ?",
+    "help": "Aide",
+    "allCategories": "Toutes les catégories"
   },
   "search": {
-    "placeholder": "Rechercher des produits, marques et catégories..."
+    "placeholder": "Rechercher des produits, des marques et des catégories..."
   },
   "product": {
     "addToCart": "Ajouter au panier",
     "buyNow": "Acheter maintenant",
     "inStock": "En stock",
     "outOfStock": "Rupture de stock"
+  },
+  "categories": {
+    "phones": "Téléphones",
+    "laptops": "Ordinateurs portables",
+    "computing": "Ordinateurs de bureau",
+    "audio": "Audio",
+    "electronics": "Électronique",
+    "smartDevices": "Appareils intelligents",
+    "accessories": "Accessoires",
+    "smartphone": "Smartphone",
+    "laptop": "Ordinateur portable",
+    "desktop": "Ordinateur de bureau",
+    "wireless earbuds": "Écouteurs sans fil"
+  },
+  "products": {
+    "title": "Nos produits",
+    "subtitle": "Découvrez notre collection",
+    "searchPlaceholder": "Rechercher des produits...",
+    "reviews": "avis",
+    "inStock": "En stock",
+    "outOfStock": "Rupture de stock",
+    "addToCart": "Ajouter au panier",
+    "addToWishlist": "Ajouter à la liste de souhaits",
+    "freeDelivery": "Livraison gratuite",
+    "fastDelivery": "Livraison rapide",
+    "expressDelivery": "Livraison express",
+    "price": "Prix",
+    "brand": "Marque",
+    "category": "Catégorie",
+    "rating": "Note",
+    "discount": "Réduction",
+    "off": "DE RÉDUCTION",
+    "specifications": "Caractéristiques techniques",
+    "description": "Description",
+    "sortBy": "Trier par",
+    "sortByName": "Nom (A-Z)",
+    "sortByPriceLow": "Prix : du plus bas au plus élevé",
+    "sortByPriceHigh": "Prix : du plus élevé au plus bas",
+    "sortByRating": "Mieux notés",
+    "filterByCategory": "Filtrer par catégorie",
+    "allCategories": "Toutes les catégories",
+    "noResults": "Aucun produit trouvé",
+    "loading": "Chargement des produits..."
+  },
+  "specs": {
+    "storage": "Stockage",
+    "ram": "Mémoire vive (RAM)",
+    "display": "Écran",
+    "camera": "Appareil photo",
+    "battery": "Batterie",
+    "processor": "Processeur",
+    "os": "Système d'exploitation",
+    "bluetooth": "Bluetooth",
+    "noiseCancellation": "Réduction du bruit",
+    "waterproof": "Étanche",
+    "condition": "État",
+    "warranty": "Garantie"
+  },
+  "featured": {
+    "title": "Produits en vedette",
+    "subtitle": "Une sélection spéciale pour vous",
+    "viewAll": "Tout voir",
+    "empty": "Aucun produit en vedette pour le moment"
   }
 }
